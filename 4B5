@@ -1,0 +1,9 @@
+<?php
+$conexion = mysqli_connect("localhost", "root", "", "opinion_holly");
+if (!$conexion){
+	echo "error el conector con la base de datos";
+
+}else{
+	
+}
+  echo "conectado:";
